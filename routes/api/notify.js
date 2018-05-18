@@ -5,7 +5,7 @@ const sgMail = require('@sendgrid/mail');
 
     signupNotification=function (req,res){
         console.log('email to sender',req);
-        sgMail.setApiKey('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');        const msg = {
+          sgMail.setApiKey('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');         const msg = {
             to:req,
             from: 'chintareddy.sudhakarreddy@gmail.com',
             subject: 'Jobnut signup greetings',
@@ -21,7 +21,7 @@ const sgMail = require('@sendgrid/mail');
     }
     jobApplyNotification=function (req,res){
         console.log('email to sender',req);
-        sgMail.setApiKey('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');        const msg = {
+        sgMail.setApiKey('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');        const msg = {
             to:req,
             from: 'chintareddy.sudhakarreddy@gmail.com',
             subject: 'Jobnut apply notification',
@@ -37,7 +37,7 @@ const sgMail = require('@sendgrid/mail');
     }
     signupHrNotification=function (req,res){
         console.log('email to sender',req);
-        sgMail.setApiKey('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');        const msg = {
+        sgMail.setApiKey('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');        const msg = {
             to:req,
             from: 'chintareddy.sudhakarreddy@gmail.com',
             subject: 'Jobnut signup grettings for HR',
@@ -53,7 +53,7 @@ const sgMail = require('@sendgrid/mail');
     }
     passwordUpdateNotification=function (req,res){
         console.log('email to sender',req);
-        sgMail.setApiKey('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');        const msg = {
+          sgMail.setApiKey('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');         const msg = {
             to:req,
             from: 'krishnasai511@gmail.com',
             subject: 'Jobnut password updated',
