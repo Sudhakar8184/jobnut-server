@@ -3,7 +3,10 @@ var router = require('express').Router();
 var Post = mongoose.model('postModel');
 const Hr = mongoose.model('hrModel');
 var auth = require('../auth');
+
 // const { authenticate } = require('../../_middleware/check-auth');
+
+
 
 function send_failure(code, message) {
     return status(code).json({
